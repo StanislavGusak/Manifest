@@ -1,0 +1,29 @@
+// fonts
+$primary-title: 'Red Hat Display', sans-serif;
+$primary-text: 'Lato', sans-serif;
+
+// variables
+
+$color-white:         #FFFFFF;
+$color-black-default: #000000;
+$color-grey:          #565656;
+$color-grey-light:    #7B7B7B;
+$color-white-grey:    #F4F4F4;
+
+// breakpoints
+
+$desktop:            1440px;
+$desktop-small-end:  $desktop - 1;
+$desktop-small:      1024px;
+$tablet-end:         $desktop-small - 1;
+$tablet:             768px;
+$mobile-end:         $tablet - 1;
+$mobile:             320px;
+
+// font-size
+
+$default-font-size: 16px;
+
+// width
+
+$max-content: 1170px;

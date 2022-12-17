@@ -1,14 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Red+Hat+Display:wght@400;500;600&display=swap');
+@import "./general/general";
+@import "./layout/layout";
+@import "./blocks/blocks";
+@import "./elements/elements";
 
-// variables
 
-$font-primary: 'Red Hat Display', sans-serif;
-$font-secondary: 'Lato', sans-serif;
 
-$color-white: #FFFFFF;
-$color-black: #000000;
-$color-grey: #565656;
-$color-grey-light: #7B7B7B;
-$color-white-grey: #F4F4F4;
 
+// .block {
+//     display: flex;
+
+//     .block__nav__list {
+//         display: flex;
+//         align-items: center;
+
+//         .block__nav__list-link {
+//             font-family: $primary-text;
+//             font-weight: 400;
+//             font-size: 14px;
+//             Line-height: 17px;
+//             letter-spacing: 30%;
+//             color: $color-black-default;
+//             text-transform: uppercase;
+//         }
+//     }
+// }
+
+// .search {
+//     margin-left: auto;
+// }
 
