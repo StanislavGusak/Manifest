@@ -1,0 +1,42 @@
+.blog {
+    margin-top: 70px;
+
+    .blog__title {
+        font-size: 48px;
+        letter-spacing: 0.05rem;
+        text-align: center;
+    }
+
+    .blog__article {
+
+        .blog__article-hash {
+            letter-spacing: 0.1em;
+            color: $color-grey-light;
+            margin: 50px auto 30px;
+        }
+
+        .blog__article-title {
+            font-weight: 500;
+            font-size: $font-size-title;
+            line-height: 36.52px; 
+            letter-spacing: 0.1em;
+        }
+
+        .blog__article-data {
+            letter-spacing: 0.1em;
+            color: $color-grey-light;
+            margin: 10px 0 40px;
+        }
+
+        .blog__article-description {
+            letter-spacing: 0.05em;
+            line-height: 26.56px;
+        }
+
+        .blog__article-img {
+            display: block;
+            width: 100%;
+            margin: 37px auto 0;
+        }
+    }
+}

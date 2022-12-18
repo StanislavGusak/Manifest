@@ -1,8 +1,15 @@
 .title {
-    &__blog {
-        font-family: $primary-title;
-        font-size: 48px;
-        letter-spacing: 0.05rem;
-        text-align: center;
+    font-family: $primary-title;
+    color: $color-black-default;
+
+    &__banner {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 50px;
+        letter-spacing: 0.05em;
+        max-width: 570px;
     }
 }
+
+
+
