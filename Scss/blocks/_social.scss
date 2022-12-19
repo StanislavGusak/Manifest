@@ -1,0 +1,40 @@
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 270px;
+    margin: 40px auto;
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        border: 1px solid $color-grey;
+        background-color: transparent;
+        transition: all .2s ease-in-out;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -ms-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+
+
+        &-item {
+            color: $color-grey;
+        }
+
+        &:hover {
+            background-color: $color-grey;
+        }
+
+        &:hover &-item {
+            color: $color-white-grey;
+            transition: all .2s ease-in-out;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -ms-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+        }
+    }
+}

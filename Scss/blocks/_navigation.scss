@@ -1,0 +1,30 @@
+.block__nav {
+    display: none;
+
+    @media screen and (min-width:$desktop) {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+
+        &-list {
+            display: flex;
+            align-items: center;
+
+            &-item {
+
+                &:not(:first-child) {
+                    margin-left: 42px;
+                }
+            }
+
+            &-link {
+                font-size: 14px;
+                line-height: 17px;
+                letter-spacing: 0.3em;
+                text-transform: uppercase;
+                color: $color-black-default;
+
+            }
+        }
+    }
+}

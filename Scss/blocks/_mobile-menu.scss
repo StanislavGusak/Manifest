@@ -1,0 +1,5 @@
+.mobile-menu {
+    @media screen and (min-width:$desktop) {
+        display: none;
+    }
+}

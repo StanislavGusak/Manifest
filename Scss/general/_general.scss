@@ -20,6 +20,12 @@ body {
 .wrapper {
     max-width: $max-content-width;
     padding: 0 10px;
+    margin: 0 auto;
+}
+
+.block {
+    display: flex;
+    align-items: center;
 }
 
 .hash {

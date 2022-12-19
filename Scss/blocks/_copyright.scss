@@ -1,18 +1,9 @@
-.footer__info {
-   text-align: center;
+.copyright {
+    line-height: 166%;
+    letter-spacing: 0.1em;
+    color: $color-black-default;
 
-    &-title {
-        font-weight: 400;
-        font-size: 32px;
-        line-height: 42px;
-        letter-spacing: 0.05em;
-        margin-top: 50px;
-    }
-
-    &-contacts {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 20px;
+    &::before {
+        content: '\00a9';
     }
 }
