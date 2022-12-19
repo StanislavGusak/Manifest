@@ -7,8 +7,21 @@
         font-size: 36px;
         line-height: 50px;
         letter-spacing: 0.05em;
-        max-width: 570px;
     }
+}
+
+.subtitle {
+    font-family: $primary-title;
+    font-size: $font-size-title;
+    font-weight: 500;
+    line-height: 36.52px;
+    letter-spacing: 0.1em;
+    color: $color-black-default;
+}
+
+.description {
+    letter-spacing: 0.05em;
+    line-height: 26.56px;
 }
 
 

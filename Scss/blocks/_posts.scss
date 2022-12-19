@@ -1,30 +1,37 @@
 .posts {
     margin-top: 70px;
 
-    .posts__heading {
+    &__heading {
 
-        .posts__heading-title {
+        &-title {
             font-weight: 600;
             font-size: 28px;
             line-height: 36px;
             letter-spacing: 0.05em;
         }
 
-        .posts__heading-link {
-            line-height: 26.56px;
-            letter-spacing: 0.1em;
-            color: $color-grey-light;
-        }
+        &-link {}
     }
 }
 
 .section {
+    margin-bottom: 50px;
 
-    .section__block {
+    &__block {
 
         .section__block-img {
-            
+            width: 100%;
+            margin: 30px auto 25px;
+            display: block;
         }
     }
-}
 
+    &__info {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        margin: 25px auto 20px;
+    }
+}

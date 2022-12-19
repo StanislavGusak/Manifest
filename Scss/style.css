@@ -347,7 +347,20 @@ textarea {
   font-size: 36px;
   line-height: 50px;
   letter-spacing: 0.05em;
-  max-width: 570px;
+}
+
+.subtitle {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 36.52px;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+.description {
+  letter-spacing: 0.05em;
+  line-height: 26.56px;
 }
 
 * {
@@ -369,6 +382,16 @@ body {
   padding: 0 10px;
 }
 
+.hash {
+  letter-spacing: 0.1em;
+  color: #7B7B7B;
+}
+
+.data {
+  letter-spacing: 0.1em;
+  color: #7B7B7B;
+}
+
 .banner {
   background-image: url(../../img/bg-image.png);
   background-repeat: no-repeat;
@@ -381,32 +404,18 @@ body {
 .blog {
   margin-top: 70px;
 }
-.blog .blog__title {
+.blog__title {
   font-size: 48px;
   letter-spacing: 0.05rem;
   text-align: center;
 }
-.blog .blog__article .blog__article-hash {
-  letter-spacing: 0.1em;
-  color: #7B7B7B;
+.blog__article-hash {
   margin: 50px auto 30px;
 }
-.blog .blog__article .blog__article-title {
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 36.52px;
-  letter-spacing: 0.1em;
-}
-.blog .blog__article .blog__article-data {
-  letter-spacing: 0.1em;
-  color: #7B7B7B;
+.blog__article-data {
   margin: 10px 0 40px;
 }
-.blog .blog__article .blog__article-description {
-  letter-spacing: 0.05em;
-  line-height: 26.56px;
-}
-.blog .blog__article .blog__article-img {
+.blog__article-img {
   display: block;
   width: 100%;
   margin: 37px auto 0;
@@ -415,18 +424,42 @@ body {
 .posts {
   margin-top: 70px;
 }
-.posts .posts__heading .posts__heading-title {
+.posts__heading-title {
   font-weight: 600;
   font-size: 28px;
   line-height: 36px;
   letter-spacing: 0.05em;
 }
-.posts .posts__heading .posts__heading-link {
-  line-height: 26.56px;
-  letter-spacing: 0.1em;
-  color: #7B7B7B;
+.section {
+  margin-bottom: 50px;
+}
+.section__block .section__block-img {
+  width: 100%;
+  margin: 30px auto 25px;
+  display: block;
+}
+.section__info {
+  display: flex;
+  justify-content: space-between;
+}
+.section__title {
+  margin: 25px auto 20px;
+}
+
+.popular__title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: 0.05em;
 }
 
 a {
   text-decoration: none;
+}
+
+.link {
+  line-height: 26.56px;
+  letter-spacing: 0.1em;
+  color: #7B7B7B;
+  margin-top: 10px;
 }/*# sourceMappingURL=style.css.map */

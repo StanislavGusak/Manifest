@@ -1,0 +1,29 @@
+.popular {
+
+    &__heading {
+
+        &-title {}
+    }
+
+    &__container {}
+
+}
+
+.sections {
+
+    &__block {
+
+        &__block-img {
+            
+        }
+
+    }
+}
+
+
+.popular__title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+}
