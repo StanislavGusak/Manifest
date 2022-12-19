@@ -2,7 +2,13 @@
 
     &__heading {
 
-        &-title {}
+
+        &-title {
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 36px;
+            letter-spacing: 0.05em;
+        }
     }
 
     &__container {}
@@ -13,10 +19,29 @@
 
     &__block {
 
-        &__block-img {
-            
+        &-img {
+            width: 100%;
+            margin: 30px auto 22px;
+            display: block;
         }
 
+    }
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+
+        &-hash {}
+
+        &-data {}
+    }
+
+    &__title {
+        margin-top: 12px;
+    }
+
+    &__text {
+        margin-top: 10px;
     }
 }
 

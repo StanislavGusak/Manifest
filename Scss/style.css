@@ -433,7 +433,7 @@ body {
 .section {
   margin-bottom: 50px;
 }
-.section__block .section__block-img {
+.section__block-img {
   width: 100%;
   margin: 30px auto 25px;
   display: block;
@@ -446,6 +446,28 @@ body {
   margin: 25px auto 20px;
 }
 
+.popular__heading-title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+}
+.sections__block-img {
+  width: 100%;
+  margin: 30px auto 22px;
+  display: block;
+}
+.sections__info {
+  display: flex;
+  justify-content: space-between;
+}
+.sections__title {
+  margin-top: 12px;
+}
+.sections__text {
+  margin-top: 10px;
+}
+
 .popular__title {
   font-weight: 600;
   font-size: 28px;
@@ -453,13 +475,95 @@ body {
   letter-spacing: 0.05em;
 }
 
+.info {
+  margin-top: 70px;
+}
+.info__title {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 39.84px;
+  letter-spacing: 0.1em;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.info__text {
+  margin-top: 35px;
+}
+
+.footer__info {
+  text-align: center;
+}
+.footer__info-title {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0.05em;
+  margin-top: 50px;
+}
+.footer__info-contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 46px;
+  margin: 50px auto 0;
+  border: none;
+  background: #565656;
+  font-weight: 700;
+  line-height: 26.56px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #000000;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+
 a {
   text-decoration: none;
 }
 
 .link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   line-height: 26.56px;
   letter-spacing: 0.1em;
   color: #7B7B7B;
   margin-top: 10px;
+  width: 112px;
+}
+.link:hover, .link-arrow:hover {
+  color: #000000;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+
+.link-arrow {
+  color: #7B7B7B;
+}
+
+.tel {
+  color: #000000;
+}
+
+.email {
+  color: #000000;
+  margin-top: 15px;
 }/*# sourceMappingURL=style.css.map */
