@@ -21,11 +21,16 @@ body {
     max-width: $max-content-width;
     padding: 0 10px;
     margin: 0 auto;
+
+    @media screen and (min-width:$tablet) {
+        padding: 0 35px;
+    }
 }
 
 .block {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .hash {

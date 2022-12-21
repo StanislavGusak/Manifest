@@ -5,17 +5,17 @@
     background-position: center;
     height: 65vw;
     min-height: 500px;
-    padding: 70px 10px 10px;
+    padding-top: 70px;
 
     @media screen and (min-width:$tablet) {
-        padding: 70px 35px 10px;
+        padding-top: 70px;
         height: 42vw;
         min-height: 320px;
         background-image: url(../../img/bg-image2.png);
     }
 
     @media screen and (min-width:$desktop) {
-        padding: 100px 135px 10px;
+        padding-top: 100px;
         height: 42vw;
         min-height: 600px;
         background-image: url(../../img/bg-image2.png);

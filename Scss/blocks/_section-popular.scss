@@ -1,35 +1,57 @@
 .popular {
 
     &__heading {
+        margin-bottom: 30px;
 
+        @media screen and (min-width:$tablet) {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0;
+        }
 
         &-title {
             font-weight: 600;
             font-size: 28px;
             line-height: 36px;
             letter-spacing: 0.05em;
+
+            @media screen and (min-width:$tablet) {
+                margin: 36px 0 46px;
+
+            }
         }
     }
 
-    &__container {}
+    &__container {
 
+        @media screen and (min-width:$tablet) {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
 }
 
 .sections {
+    margin-bottom: 50px;
+
+    @media screen and (min-width:$tablet) {
+        max-width: 48%;
+    }
+
 
     &__block {
 
         &-img {
             width: 100%;
-            margin: 30px auto 22px;
             display: block;
         }
-
     }
 
     &__info {
         display: flex;
         justify-content: space-between;
+        margin-top: 30px;
 
         &-hash {}
 

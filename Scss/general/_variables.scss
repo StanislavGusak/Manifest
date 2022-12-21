@@ -12,21 +12,22 @@ $color-white-grey:    #F4F4F4;
 
 // breakpoints
 
-$desktop:            1440px;
-$desktop-small-end:  $desktop - 1;
-$desktop-small:      1024px;
-$tablet-end:         $desktop-small - 1;
-$tablet:             768px;
-$mobile-end:         $tablet - 1;
-$mobile:             320px;
+$desktop:               1440px;
+$desktop-small-end:     $desktop - 1;
+$desktop-small:         1024px;
+$tablet-end:            $desktop-small - 1;
+$tablet:                768px;
+$mobile-end:            $tablet - 1;
+$mobile:                320px;
 
 // font-size
 
-$default-font-size: 16px;
-$font-size-title: 22px;
+$default-font-size:     16px;
+$font-size-title:       22px;
+$font-size-tablet:      23px;
 
-// width
-
-$max-content-width: 1170px;
+// width   
+   
+$max-content-width:     1170px;
 
 

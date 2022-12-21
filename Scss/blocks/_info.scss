@@ -9,9 +9,19 @@
         letter-spacing: 0.1em;
         color: $color-black-default;
         margin-bottom: 15px;
+
+        @media screen and (min-width:$tablet) {
+            max-width: 79%;
+        }
     }
 
     &__text {
         margin-top: 35px;
+
+        @media screen and (min-width:$tablet) {
+            text-align: end;
+            max-width: 75%;
+            margin-left: auto;
+        }
     }
 }

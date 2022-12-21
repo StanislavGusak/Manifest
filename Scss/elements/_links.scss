@@ -23,7 +23,9 @@ a {
 }
 
 .link-arrow {
+    display: inline-block;
     color: $color-grey-light;
+    margin-left: 20px;
 }
 
 .tel {

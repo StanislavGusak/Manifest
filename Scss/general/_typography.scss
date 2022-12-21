@@ -8,15 +8,15 @@
         line-height: 50px;
         letter-spacing: 0.05rem;
         width: 100%;
-        max-width: 84%;
+        max-width: 500px;
 
         @media screen and (min-width:$tablet) {
-            max-width: 70%;
+            max-width: 600px;
             font-size: 36px;
         }
 
         @media screen and (min-width:$desktop) {
-            max-width: 55%;
+            max-width: 770px;
             font-size: 48px;
             line-height: 64px;
         }
@@ -30,6 +30,11 @@
     line-height: 36.52px;
     letter-spacing: 0.1em;
     color: $color-black-default;
+
+    @media screen and (min-width:$tablet) {
+        font-size: $font-size-tablet;
+        line-height: 38.18px;
+    }
 }
 
 .description {

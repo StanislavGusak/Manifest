@@ -1,5 +1,9 @@
 .block__nav {
     display: none;
+    
+    @media screen and (min-width:$mobile) {
+        
+    }
 
     @media screen and (min-width:$desktop) {
         display: flex;
@@ -25,6 +29,12 @@
                 color: $color-black-default;
 
             }
+        }
+
+        &::after {
+            width: 75%;
+            height: 2px;
+            background: $color-black-default;
         }
     }
 }
