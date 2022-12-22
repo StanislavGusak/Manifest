@@ -427,7 +427,12 @@ body {
 }
 
 .header {
-  padding: 20px 0;
+  padding: 18px 0;
+}
+@media screen and (min-width: 1440px) {
+  .header {
+    padding: 38px 0;
+  }
 }
 
 .footer {
@@ -587,8 +592,8 @@ body {
 }
 @media screen and (min-width: 768px) {
   .blog__article-info-text {
-    overflow: hidden;
     height: 81px;
+    overflow: hidden;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -616,7 +621,7 @@ body {
 .blog__article-picture-image {
   display: none;
   width: 100%;
-  min-height: 280px;
+  height: auto;
 }
 @media screen and (min-width: 768px) {
   .blog__article-picture-image {
@@ -980,7 +985,7 @@ a:focus {
 }
 .link-arrow .icon {
   width: 23px;
-  height: 15px;
+  height: 16px;
 }
 
 .tel {

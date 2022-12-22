@@ -37,7 +37,7 @@
             }
 
             &-title {
-                
+
                 @media screen and (min-width:$desktop) {
                     max-width: 65%;
                 }
@@ -50,8 +50,8 @@
             &-text {
 
                 @media screen and (min-width:$tablet) {
-                    overflow: hidden;
                     height: 81px;
+                    overflow: hidden;
                 }
 
                 @media screen and (min-width:$desktop) {
@@ -81,7 +81,7 @@
             &-image {
                 display: none;
                 width: 100%;
-                min-height: 280px;
+                height: auto;
 
                 @media screen and (min-width:$tablet) {
                     display: block;
