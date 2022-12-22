@@ -6,6 +6,7 @@
     margin: 40px 0;
 
     &__list {
+        cursor: url(../../img/cursor.svg), auto;
        
         &-item {
             display: flex;

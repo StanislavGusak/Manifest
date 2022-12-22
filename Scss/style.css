@@ -883,6 +883,9 @@ body {
   width: 270px;
   margin: 40px 0;
 }
+.social__list {
+  cursor: url(../../img/cursor.svg), auto;
+}
 .social__list-item {
   display: flex;
   justify-content: center;
