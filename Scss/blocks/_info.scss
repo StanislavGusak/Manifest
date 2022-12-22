@@ -1,29 +1,47 @@
 .info {
-    margin-top: 70px;
+    margin: 70px auto;
 
-    &__title {
-        font-family: $primary-title;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 39.84px;
-        letter-spacing: 0.1em;
-        color: $color-black-default;
-        margin-bottom: 15px;
+    @media screen and (min-width:$desktop) {
+        display: flex;
+        justify-content: space-between;
+    }
 
-        @media screen and (min-width:$tablet) {
-            font-size: 23px;
-            line-height: 38px;
+    &__block {
+
+        &-title {
+            font-family: $primary-title;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 39.84px;
+            letter-spacing: 0.1em;
+            color: $color-black-default;
+            margin-bottom: 15px;
+    
+            @media screen and (min-width:$tablet) {
+                font-size: 23px;
+                line-height: 38px;
+            }
+        }
+
+        &-link {
+            color: $color-grey-light;
         }
     }
 
     &__text {
-        margin: 35px 0 70px;
+        margin: 35px 0 0;
 
         @media screen and (min-width:$tablet) {
-            text-align: end;
+            text-align: right;
             max-width: 75%;
             margin-left: auto;
             font-size: 19px;
+        }
+
+        @media screen and (min-width:$desktop) {
+            width: 39%;
+            text-align: left;
+            margin: 0;
         }
     }
 }

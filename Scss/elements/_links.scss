@@ -19,17 +19,17 @@ a {
     &:hover, &-arrow:hover {
         color: $color-black-default;
         transition: all .2s ease-in-out;
-        -webkit-transition: all .2s ease-in-out;
-        -moz-transition: all .2s ease-in-out;
-        -ms-transition: all .2s ease-in-out;
-        -o-transition: all .2s ease-in-out;
     }
 }
 
 .link-arrow {
-    display: inline-block;
+    display: none;
     color: $color-grey-light;
     margin-left: 20px;
+
+    @media screen and (min-width:$tablet) {
+        display: inline-block;
+    }
 }
 
 .tel {

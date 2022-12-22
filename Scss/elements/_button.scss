@@ -11,15 +11,10 @@
     line-height: 26.56px;
     letter-spacing: 0.1em;
     color: $color-white;
-    cursor: pointer;
 
     &:hover {
         background: $color-black-default;
         transition: all .2s ease-in-out;
-        -webkit-transition: all .2s ease-in-out;
-        -moz-transition: all .2s ease-in-out;
-        -ms-transition: all .2s ease-in-out;
-        -o-transition: all .2s ease-in-out;
     }
 }
 

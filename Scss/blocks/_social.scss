@@ -5,20 +5,21 @@
     width: 270px;
     margin: 40px 0;
 
-    
+
 
     &__list {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 50px;
-        height: 50px;
-        border: 1px solid $color-grey;
-        background-color: transparent;
-        transition: all .2s ease-in-out;
-
+       
         &-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            border: 1px solid $color-grey;
+            background-color: transparent;
+            transition: all .2s ease-in-out;
             color: $color-grey;
+            cursor: url(../../img/cursor.svg), auto;
         }
 
         &:hover {
