@@ -1,5 +1,8 @@
 .footer {
     background-color: $color-white-grey;
-    text-align: center;
-    padding: 50px 10px;
+    padding: 50px 0;
+
+    @media screen and (min-width:$desktop) {
+    padding: 70px 0 30px;
+    }
 }

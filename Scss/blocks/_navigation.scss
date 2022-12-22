@@ -5,7 +5,7 @@
         
     }
 
-    @media screen and (min-width:$desktop) {
+    @media screen and (min-width:$desktop-small) {
         display: flex;
         align-items: center;
         margin-left: auto;

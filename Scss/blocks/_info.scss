@@ -11,17 +11,19 @@
         margin-bottom: 15px;
 
         @media screen and (min-width:$tablet) {
-            max-width: 79%;
+            font-size: 23px;
+            line-height: 38px;
         }
     }
 
     &__text {
-        margin-top: 35px;
+        margin: 35px 0 70px;
 
         @media screen and (min-width:$tablet) {
             text-align: end;
             max-width: 75%;
             margin-left: auto;
+            font-size: 19px;
         }
     }
 }

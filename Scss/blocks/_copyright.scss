@@ -1,9 +1,23 @@
 .copyright {
-    line-height: 166%;
-    letter-spacing: 0.1em;
-    color: $color-black-default;
+    max-width: 75%;
+    margin: 0 auto;
 
-    &::before {
-        content: '\00a9';
+    
+
+    &__text {
+        text-align: center;
+        font-size: $default-font-size;
+        line-height: 26.56px;
+        letter-spacing: 0.1em;
+        color: $color-black-default;
+
+        &::before {
+            content: '\00a9';
+        }
+
+        @media screen and (min-width:$tablet) {
+            font-size: 12px;
+            line-height: 20px;
+        }
     }
 }
