@@ -20,15 +20,26 @@ a {
         color: $color-black-default;
         transition: all .2s ease-in-out;
     }
+
+    .icon {
+        width: 23px;
+        height: 15px;
+    }
 }
 
 .link-arrow {
     display: none;
     color: $color-grey-light;
     margin-left: 20px;
+    vertical-align: baseline;
 
     @media screen and (min-width:$tablet) {
         display: inline-block;
+    }
+
+    .icon {
+        width: 23px;
+        height: 15px;
     }
 }
 

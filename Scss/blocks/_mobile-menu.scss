@@ -2,4 +2,17 @@
     @media screen and (min-width:$desktop-small) {
         display: none;
     }
+
+    &__btn {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        margin-left: 20px;
+
+        &-burger {
+            width: 32px;
+            height: 20px;
+            color: $color-black-default;
+        }
+    }
 }

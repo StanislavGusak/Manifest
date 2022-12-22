@@ -25,6 +25,11 @@
 
         &-link {
             color: $color-grey-light;
+
+            .icon {
+                width: 23px;
+                height: 15px;
+            }
         }
     }
 
