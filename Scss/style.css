@@ -540,9 +540,7 @@ body {
 @media screen and (min-width: 1440px) {
   .banner {
     padding-top: 100px;
-    height: 42vw;
     min-height: 600px;
-    background-image: url(../../img/bg-image2.png);
   }
 }
 
@@ -813,6 +811,9 @@ body {
 }
 .info__block-link {
   color: #7B7B7B;
+}
+.info__block-link:hover {
+  color: #000000;
 }
 .info__block-link .icon {
   width: 23px;
